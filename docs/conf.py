@@ -99,3 +99,6 @@ nbsphinx_epilog = r"""
     \textcolor{gray}{\dotfill\ \sphinxcode{\sphinxupquote{\strut
     {{ docname | escape_latex }}}} ends here.}}
 """
+
+# Tell the extension to use the local server root instead of /en/latest/
+# notfound_urls_prefix = '/'
